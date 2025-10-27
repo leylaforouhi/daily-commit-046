@@ -1,4 +1,4 @@
-def count_sentences(text):
+def count_sentences(tex):
     return text.count('.') + text.count('!') + text.count('?')
 
 if __name__ == "__main__":
